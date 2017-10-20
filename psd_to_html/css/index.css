@@ -1,0 +1,42 @@
+.index-banner {
+	position: relative;
+	background: #3b3b3b;
+}
+
+.index-banner-bg {
+	height: 570px;
+	overflow: hidden; /*When the content overflows, the scroll bar is not displayed*/
+}
+
+.index-banner-text {
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	margin-left: -388px;
+}
+
+.index-banner-text .text-logo {
+	width: 776px;
+	height: 117px;
+	background: url("../images/index-banner-textlogo.png");
+}
+
+.index-banner-text .text-info {
+	margin-top: 18px;
+	text-align: center;
+	color: #fff;
+}
+
+.index-banner-text .text-info .line {
+	display: inline-block;
+	width: 40px;
+	border-top: 1px solid #fff;
+}
+
+.index-banner-text .text-info .line-l {
+	margin-right: 26px;
+}
+
+.index-banner-text .text-info .line-r {
+	margin-left: 26px;
+}
